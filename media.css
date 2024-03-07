@@ -1,0 +1,5 @@
+@media (max-width:991px) {
+    .container:hover {
+        transform: scale(1);
+    }
+}

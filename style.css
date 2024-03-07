@@ -9,22 +9,24 @@ body {
 }
 
 .container {
-    height: 100vh;
     justify-content: center;
-    margin: 0 auto ;
-    width: 550px;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     transform: scale(1);
     transition: 0.3s;
 }
+
 a {
     text-decoration: none;
 }
+
 .title {
     color: black;
-     
+
     font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -32,7 +34,6 @@ a {
 
 .container:hover {
     transform: scale(1.2);
-
 }
 
 
@@ -857,6 +858,7 @@ a {
     width: 25px;
     height: 25px;
 }
+
 .row16_pix11 {
     display: flex;
 }
@@ -895,6 +897,7 @@ a {
     height: 25px;
     background: gray;
 }
+
 .row18_pix11 {
     display: flex;
 }
@@ -1108,6 +1111,7 @@ a {
     height: 25px;
     background: black;
 }
+
 .row20_pix11 {
     display: flex;
 }
